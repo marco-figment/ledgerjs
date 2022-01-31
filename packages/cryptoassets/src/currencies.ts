@@ -2450,6 +2450,35 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
       },
     ],
   },
+  luna: {
+    type: "CryptoCurrency",
+    id: "luna",
+    coinType: 330,
+    name: "Terra's Luna Coin",
+    managerAppName: "Terra",
+    ticker: "LUNA",
+    scheme: "luna",
+    color: "#2043b5",
+    family: "terra",
+    units: [
+      {
+        name: "Luna",
+        code: "LUNA",
+        magnitude: 6,
+      },
+      {
+        name: "Micro-LUNA",
+        code: "uluna",
+        magnitude: 0,
+      },
+    ],
+    explorerViews: [
+      {
+        tx: "https://finder.terra.money/mainnet/tx/$hash",
+        address: "https://finder.terra.money/mainnet/address/$address",
+      },
+    ],
+  },
   tezos: {
     type: "CryptoCurrency",
     id: "tezos",
