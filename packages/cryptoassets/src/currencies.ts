@@ -2450,6 +2450,35 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
       },
     ],
   },
+  osmosis: {
+    type: "CryptoCurrency",
+    id: "osmosis",
+    coinType: 118,
+    name: "Osmosis",
+    managerAppName: "Cosmos",
+    ticker: "OSMO",
+    scheme: "osmo",
+    color: "#493c9b",
+    family: "osmosis",
+    units: [
+      {
+        name: "Osmosis",
+        code: "OSMO",
+        magnitude: 6,
+      },
+      {
+        name: "Micro-OSMO",
+        code: "uosmo",
+        magnitude: 0,
+      },
+    ],
+    explorerViews: [
+      {
+        tx: "https://osmosis.bigdipper.live/transactions/$hash",
+        address: "https://osmosis.bigdipper.live/account/$address",
+      },
+    ],
+  },
   tezos: {
     type: "CryptoCurrency",
     id: "tezos",
