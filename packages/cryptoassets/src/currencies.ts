@@ -2452,7 +2452,7 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
   },
   osmosis: {
     type: "CryptoCurrency",
-    id: "osmosis",
+    id: "osmo",
     coinType: 118,
     name: "Osmosis",
     managerAppName: "Cosmos",
