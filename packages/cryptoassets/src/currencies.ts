@@ -2474,8 +2474,8 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
     ],
     explorerViews: [
       {
-        tx: "https://osmosis.bigdipper.live/transactions/$hash",
-        address: "https://osmosis.bigdipper.live/account/$address",
+        tx: "https://www.mintscan.io/osmosis/txs/$hash",
+        address: "https://www.mintscan.io/osmosis/account/$address",
       },
     ],
   },
